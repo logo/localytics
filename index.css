@@ -1,0 +1,22 @@
+
+/**
+ * Localytics
+ */
+
+.logo[data-logo="Localytics"] {
+  width: 4.808695652em;
+  /* (5.53/0.92) * (1-.1-.1) - 0 */
+}
+
+.logo[data-logo="Localytics"] > * {
+  background-image: url(images/logo.svg);
+  margin: .1em 0;
+}
+
+.logo[data-logo="Localytics"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Localytics"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
